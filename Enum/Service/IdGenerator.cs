@@ -8,7 +8,7 @@ namespace Enum.Service
 {
     internal abstract class IdGenerator
     {
-        public   int IdForEachUser { get;  }
+        public static int IdForEachUser { get; private set; }
 
         public IdGenerator()
         {
